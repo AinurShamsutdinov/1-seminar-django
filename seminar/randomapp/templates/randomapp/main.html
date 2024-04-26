@@ -1,0 +1,13 @@
+{% block title %}
+      <title>{{ title }}</title>
+{% endblock %}
+<h1>{{ page }}</h1>
+{% if links %}
+    <ul>
+    {% for link in links %}
+        <li><a href="/random/{{ link }}/">{{ link }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No links are available.</p>
+{% endif %}
