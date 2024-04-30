@@ -1,13 +1,23 @@
+{% extends 'base.html' %}
+
 {% block title %}
-      <title>{{ title }}</title>
+    {{ title }}
 {% endblock %}
-<h1>{{ page }}</h1>
-{% if links %}
-    <ul>
-    {% for link in links %}
-        <li><a href="/random/{{ link }}/">{{ link }}</a></li>
-    {% endfor %}
-    </ul>
-{% else %}
-    <p>No links are available.</p>
-{% endif %}
+
+{% block content %}
+
+<h3>{{ page }}</h3>
+<h3>Test block</h3>
+
+    {% if links %}
+        <ul>
+        {% for link in links %}
+            <li><a href="/random/{{ link }}/">{{ link }}</a></li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>Test the possibility</p>
+        <p>No links are available.</p>
+    {% endif %}
+
+{% endblock %}
