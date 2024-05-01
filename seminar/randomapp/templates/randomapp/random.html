@@ -1,0 +1,12 @@
+{% extends 'randomapp/base.html' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block content %}
+    <h1>Results of {{ generations }} generations</h1>
+    {% for res in results %}
+        <ul>{{ res }}</ul>
+    {% endfor %}
+{% endblock %}

@@ -9,27 +9,36 @@ logger = logging.getLogger(__name__)
 # Create your views here.
 
 
-def head_tails(request):
-    rand = random.randrange(0, 2)
-    result: str
-    if rand == 0:
-        result = 'Heads'
-    else:
-        result = 'Tails'
-    logger.info(f'Head or tails page accessed {result}')
-    return HttpResponse(f'Head or tails: {result}.')
+def head_tails(request, toss):
+    results = list()
+    for i in range(toss):
+        rand = random.randrange(0, 2)
+        result: str
+        if rand == 0:
+            result = 'Heads'
+        else:
+            result = 'Tails'
+        results.append(result)
+    logger.info(f'Head or tails page accessed {results}')
+    return render(request, 'randomapp/coin.html', {'results': results, 'toss': toss})
 
 
-def dice(request):
-    rand = random.randrange(1, 7)
-    logger.info(f'Dice page accessed {rand}')
-    return HttpResponse(f'Dice is {rand}.')
+def dice(request, toss):
+    results = list()
+    for i in range(toss):
+        rand = random.randrange(1, 7)
+        results.append(rand)
+    logger.info(f'Dice page accessed {results}')
+    return render(request, 'randomapp/dice.html', {'results': results, 'toss': toss})
 
 
-def random_generate(request):
-    rand = random.randrange(0, 101)
-    logger.info(f'Random from 0 to 100 is {rand}')
-    return HttpResponse(f'Random from 0 to 100 is equal to {rand}.')
+def random_generate(request, generations):
+    results = list()
+    for i in range(generations):
+        rand = random.randrange(0, 101)
+        results.append(rand)
+    logger.info(f'Random from 0 to 100 is {results}')
+    return render(request, 'randomapp/random.html', {'results': results, 'generations': generations})
 
 
 def main(request):

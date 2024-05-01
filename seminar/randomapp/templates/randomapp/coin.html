@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block content %}
+    <h1>Results of {{ toss }} coin tosses</h1>
+    {% for res in results %}
+        <ul>{{ res }}</ul>
+    {% endfor %}
+{% endblock %}

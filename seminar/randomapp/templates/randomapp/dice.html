@@ -1,0 +1,12 @@
+{% extends 'randomapp/base.html' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block content %}
+    <h1>Result of {{ toss }} dice tosses:</h1>
+    {% for res in results %}
+        <ul>{{ res }}</ul>
+    {% endfor %}
+{% endblock %}

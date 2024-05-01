@@ -884,3 +884,89 @@ INFO 2024-04-30 23:22:50,497 views 31061 6163296256 Dice page accessed 5
 INFO 2024-04-30 23:22:50,498 basehttp 31061 6163296256 "GET /random/dice/ HTTP/1.1" 200 10
 INFO 2024-04-30 23:22:52,039 views 31061 6163296256 Head or tails page accessed Tails
 INFO 2024-04-30 23:22:52,040 basehttp 31061 6163296256 "GET /random/headtail/ HTTP/1.1" 200 21
+INFO 2024-05-01 00:05:42,073 autoreload 31715 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-01 00:05:52,634 basehttp 31715 6136033280 "GET /random/dice/6 HTTP/1.1" 301 0
+INFO 2024-05-01 00:05:52,636 views 31715 6152859648 Dice page accessed 6
+ERROR 2024-05-01 00:05:52,675 log 31715 6152859648 Internal Server Error: /random/dice/6/
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/randomapp/views.py", line 32, in dice
+    return render(request, 'seminar/dice.html', {'results': results, 'toss': toss})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: seminar/dice.html
+ERROR 2024-05-01 00:05:52,677 basehttp 31715 6152859648 "GET /random/dice/6/ HTTP/1.1" 500 79048
+INFO 2024-05-01 00:06:51,034 autoreload 31715 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/randomapp/views.py changed, reloading.
+INFO 2024-05-01 00:06:51,184 autoreload 31730 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-01 00:06:56,971 views 31730 6129053696 Dice page accessed 3
+INFO 2024-05-01 00:06:56,975 basehttp 31730 6129053696 "GET /random/dice/6/ HTTP/1.1" 200 348
+ERROR 2024-05-01 00:07:09,181 log 31730 6129053696 Internal Server Error: /random/random/6/
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/randomapp/views.py", line 37, in random_generate
+    for i in range(toss):
+                   ^^^^
+NameError: name 'toss' is not defined
+ERROR 2024-05-01 00:07:09,183 basehttp 31730 6129053696 "GET /random/random/6/ HTTP/1.1" 500 62506
+ERROR 2024-05-01 00:07:25,965 log 31730 6129053696 Internal Server Error: /random/random/6/
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/randomapp/views.py", line 37, in random_generate
+    for i in range(generations):
+                   ^^^^
+NameError: name 'toss' is not defined
+ERROR 2024-05-01 00:07:25,966 basehttp 31730 6129053696 "GET /random/random/6/ HTTP/1.1" 500 62657
+INFO 2024-05-01 00:07:26,770 autoreload 31730 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/randomapp/views.py changed, reloading.
+INFO 2024-05-01 00:07:26,933 autoreload 31740 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-01 00:07:29,011 views 31740 6128971776 Random from 0 to 100 is 44
+INFO 2024-05-01 00:07:29,017 basehttp 31740 6128971776 "GET /random/random/6/ HTTP/1.1" 200 390
+INFO 2024-05-01 00:08:02,507 autoreload 31740 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/randomapp/views.py changed, reloading.
+INFO 2024-05-01 00:08:02,649 autoreload 31748 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-01 00:08:07,573 views 31748 6130298880 Random from 0 to 100 is [82, 38, 76, 74, 21, 37]
+INFO 2024-05-01 00:08:07,582 basehttp 31748 6130298880 "GET /random/random/6/ HTTP/1.1" 200 390
+INFO 2024-05-01 00:08:52,646 views 31748 6130298880 Random from 0 to 100 is [78, 24, 60, 59, 3, 31]
+INFO 2024-05-01 00:08:52,647 basehttp 31748 6130298880 "GET /random/random/6/ HTTP/1.1" 200 353
+INFO 2024-05-01 00:09:15,055 views 31748 6130298880 Dice page accessed [3, 5, 6, 6, 2, 4]
+INFO 2024-05-01 00:09:15,058 basehttp 31748 6130298880 "GET /random/dice/6/ HTTP/1.1" 200 348
+WARNING 2024-05-01 00:09:24,417 log 31748 6130298880 Not Found: /random/toss/6/
+WARNING 2024-05-01 00:09:24,417 basehttp 31748 6130298880 "GET /random/toss/6/ HTTP/1.1" 404 3395
+INFO 2024-05-01 00:09:55,246 views 31748 6130298880 Head or tails page accessed ['Heads', 'Heads', 'Tails', 'Heads', 'Tails', 'Tails']
+INFO 2024-05-01 00:09:55,248 basehttp 31748 6130298880 "GET /random/headtail/6/ HTTP/1.1" 200 361
+INFO 2024-05-01 00:10:28,751 autoreload 31748 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/randomapp/views.py changed, reloading.
+INFO 2024-05-01 00:10:29,497 autoreload 31843 8346892992 Watching for file changes with StatReloader
+WARNING 2024-05-01 00:10:36,873 log 31843 6188806144 Not Found: /random/coin/6/
+WARNING 2024-05-01 00:10:36,873 basehttp 31843 6188806144 "GET /random/coin/6/ HTTP/1.1" 404 3395
+WARNING 2024-05-01 00:10:51,835 log 31843 6188806144 Not Found: /random/coin/6/
+WARNING 2024-05-01 00:10:51,835 basehttp 31843 6188806144 "GET /random/coin/6/ HTTP/1.1" 404 3395
+INFO 2024-05-01 00:10:51,906 autoreload 31843 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/randomapp/urls.py changed, reloading.
+INFO 2024-05-01 00:10:52,091 autoreload 31855 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-01 00:10:52,993 views 31855 6171488256 Head or tails page accessed ['Heads', 'Heads', 'Heads', 'Heads', 'Tails', 'Heads']
+INFO 2024-05-01 00:10:52,997 basehttp 31855 6171488256 "GET /random/coin/6/ HTTP/1.1" 200 361
+INFO 2024-05-01 00:11:06,365 views 31855 6171488256 Head or tails page accessed ['Heads', 'Heads', 'Tails', 'Tails', 'Tails', 'Tails', 'Heads', 'Heads', 'Heads', 'Heads', 'Tails', 'Heads', 'Heads', 'Tails', 'Tails', 'Heads']
+INFO 2024-05-01 00:11:06,367 basehttp 31855 6171488256 "GET /random/coin/16/ HTTP/1.1" 200 642
+INFO 2024-05-01 00:11:27,341 views 31855 6171488256 Dice page accessed [4, 3, 6, 2, 1, 2, 5, 1, 6, 1, 4, 4, 6, 3, 5, 4]
+INFO 2024-05-01 00:11:27,348 basehttp 31855 6171488256 "GET /random/dice/16/ HTTP/1.1" 200 589
+INFO 2024-05-01 00:11:39,639 views 31855 6171488256 Random from 0 to 100 is [64, 6, 10, 90, 96, 14, 59, 48, 95, 50, 2, 47, 23, 29, 35, 23]
+INFO 2024-05-01 00:11:39,642 basehttp 31855 6171488256 "GET /random/random/16/ HTTP/1.1" 200 603
