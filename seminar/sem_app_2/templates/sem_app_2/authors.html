@@ -1,0 +1,12 @@
+{% extends 'sem_app_2/base.html' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block content %}
+    <h1>{{ text }}</h1>
+    {% for author in authors %}
+        <a href="{% url 'articles' author.id %}"{{ author.id }}|>{{ author }}</a><br>
+    {% endfor %}
+{% endblock %}

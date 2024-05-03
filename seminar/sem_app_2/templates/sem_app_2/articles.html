@@ -1,0 +1,16 @@
+{% extends 'sem_app_2/base.html' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block content %}
+    {{ text }} <br>
+    {% for article in articles %}
+        {% if article.published %}
+        <p><b>{{ article.id }}</b>  <a href="{% url 'article' article.id %}">{{ article.head }}</a></p>
+        {% else %}
+        <p><i><b>ID {{ article.id }}</b></i>  {{ article.head }}</p><br>
+        {% endif %}
+    {% endfor %}
+{% endblock %}

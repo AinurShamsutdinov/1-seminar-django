@@ -1,0 +1,10 @@
+{% extends 'sem_app_2/base.html' %}
+{% block content %}
+    <h3>{{ text }}</h3><br>
+    {% for order in orders %}
+        <h4>The person who made the order:<a href="{% url 'get_order_items' order.id %}"> {{ order.client.name }}</a><br></h1>
+        {% for item in order.items.all %}
+            <i>{{ item }}</i><br>
+        {% endfor %}
+    {% endfor %}
+{% endblock %}

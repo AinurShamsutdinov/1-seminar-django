@@ -1,0 +1,6 @@
+class Commentary(models.Model):
+    author = models.ForeignKey(Author, on_delete=models.CASCADE)
+    article = models.ForeignKey(Article, on_delete=models.CASCADE)
+    comment = models.TextField()
+    date_creat = models.DateTimeField(blank=True)
+    date_edit = models.DateTimeField()

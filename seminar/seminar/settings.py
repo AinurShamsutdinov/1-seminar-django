@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['192.168.1.17',
 
 # Application definition
 
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -39,8 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'seminarapp',
+    'sem_app_1',
     'randomapp',
+    'sem_app_2',
 ]
 
 MIDDLEWARE = [

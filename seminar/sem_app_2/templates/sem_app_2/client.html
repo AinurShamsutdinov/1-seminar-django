@@ -1,0 +1,33 @@
+{% extends 'sem_app_2/base.html' %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
+    <h3>{{ text }}</h3><br>
+    
+    <h4>The person who made the order: {{ orders.count }} <br></h1>
+    {% for item in order.items.all %}
+        <i>{{ item }}</i><br>
+    {% endfor %}
+
+    
+    <h2>Ordered in reversed time period:</h2>
+    <h3>Ordered no more than 7 days:</h3>
+    {% for set in items_7 %}
+        {% for item in set %}
+            <b>{{ item }}</b><br>
+        {% endfor %}
+    {% endfor%}
+    <h3>Ordered no more than 30 days:</h3>
+    {% for set in items_30 %}
+        {% for item in set %}
+            <b>{{ item }}</b><br>
+        {% endfor %}
+    {% endfor %}
+    <h3>Ordered no more than 365 days:</h3>
+    {% for set in items_365 %}
+        {% for item in set %}
+            <b>{{ item }}</b><br>
+        {% endfor %}
+    {% endfor %}
+{% endblock %}
