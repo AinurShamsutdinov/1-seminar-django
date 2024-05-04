@@ -1,0 +1,72 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+
+
+        {
+            "name": "Python Debugger: Django Runserver",
+            "type": "debugpy",
+            "request": "launch",
+            "args": [
+                "runserver"
+            ],
+            "django": true,
+            "autoStartBrowser": false,
+            "program": "${workspaceFolder}/seminar/manage.py"
+        },
+        {
+            "name": "Python Debugger: Update Article",
+            "type": "debugpy",
+            "request": "launch",
+            "args": [
+                "publish_art",
+                "3"
+            ],
+            "django": true,
+            "autoStartBrowser": false,
+            "program": "${workspaceFolder}/seminar/manage.py"
+        },
+        {
+            "name": "Python Debugger: Get Article",
+            "type": "debugpy",
+            "request": "launch",
+            "args": [
+                "get_article",
+                "Arnold",
+                "4"
+            ],
+            "django": true,
+            "autoStartBrowser": false,
+            "program": "${workspaceFolder}/seminar/manage.py"
+        },
+        {
+            "name": "Python Debugger: Add Order",
+            "type": "debugpy",
+            "request": "launch",
+            "args": [
+                "add_order",
+                "Silvester",
+                "cattle"
+            ],
+            "django": true,
+            "autoStartBrowser": false,
+            "program": "${workspaceFolder}/seminar/manage.py"
+        },
+        {
+            "name": "Python Debugger: Get Orders",
+            "type": "debugpy",
+            "request": "launch",
+            "args": [
+                "get_order",
+                "8"
+            ],
+            "django": true,
+            "autoStartBrowser": false,
+            "program": "${workspaceFolder}/seminar/manage.py"
+        }
+    ]
+}

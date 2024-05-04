@@ -2,6 +2,7 @@ import datetime
 import random
 
 from django.db import models
+from django import forms
 
 # Create your models here.
 
@@ -33,7 +34,21 @@ class Author(models.Model):
 
     def __str__(self):
         return f'Author: {self.name} {self.last_name} {self.email}'
+    
+    def get_authors(self):
+        return self.objects.all()
 
+    def get_author(self, author_id):
+        return self.objects.get(id=author_id)
+    
+    def get_authors_choice_field():
+        author_id_full_name = list()
+        authors = Author.objects.all()
+        authors_choices = Author.objects.all().values_list('id', 'full_name')
+        for author in authors.all():
+            author_id_full_name.append((str(author.pk), str(author.full_name)))
+        return authors_choices
+    
 
 class Article(models.Model):
     head = models.CharField(max_length=200)

@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'sem_app_1',
     'randomapp',
     'sem_app_2',
+    'sem_app_4',
 ]
 
 MIDDLEWARE = [
