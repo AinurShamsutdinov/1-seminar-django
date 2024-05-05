@@ -3405,3 +3405,171 @@ INFO 2024-05-05 13:36:51,702 basehttp 5341 6158086144 "POST /sem_4/edit/item/4 H
 INFO 2024-05-05 13:36:54,215 basehttp 5341 6158086144 "POST /sem_4/edit/item/4 HTTP/1.1" 200 1210
 INFO 2024-05-05 13:37:17,359 basehttp 5341 6158086144 "GET /sem_4/edit/item/3 HTTP/1.1" 200 1219
 INFO 2024-05-05 13:37:48,352 basehttp 5341 6158086144 "POST /sem_4/edit/item/3 HTTP/1.1" 200 1210
+INFO 2024-05-05 14:25:32,681 autoreload 7422 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 14:25:55,000 autoreload 7422 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:25:55,157 autoreload 7433 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 14:26:34,754 autoreload 7433 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:26:34,905 autoreload 7446 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 14:26:41,032 autoreload 7446 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:26:41,168 autoreload 7455 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 14:26:42,232 autoreload 7455 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:26:42,380 autoreload 7456 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 14:27:01,687 autoreload 7456 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:27:01,833 autoreload 7462 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 14:27:14,989 autoreload 7462 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:27:15,139 autoreload 7470 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 14:27:18,229 autoreload 7470 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:27:18,385 autoreload 7476 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 14:27:21,454 autoreload 7476 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:27:21,601 autoreload 7483 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 14:27:25,670 autoreload 7483 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:27:25,821 autoreload 7485 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 14:27:26,888 autoreload 7485 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:27:27,047 autoreload 7491 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 14:27:30,114 autoreload 7491 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:27:30,249 autoreload 7492 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 14:27:37,382 autoreload 7492 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:27:37,587 autoreload 7500 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 14:27:49,783 autoreload 7500 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:27:49,934 autoreload 7506 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 14:27:53,022 autoreload 7506 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:27:53,175 autoreload 7512 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 14:27:58,270 autoreload 7512 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:27:58,450 autoreload 7518 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 14:29:51,135 autoreload 7518 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:29:51,286 autoreload 7534 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 14:29:54,383 autoreload 7534 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:29:54,532 autoreload 7543 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 14:29:56,604 autoreload 7543 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:29:56,760 autoreload 7544 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 14:30:05,917 autoreload 7544 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:30:06,078 autoreload 7557 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 14:30:09,151 autoreload 7557 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:30:09,291 autoreload 7563 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 14:30:47,734 autoreload 7563 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/seminar/urls.py changed, reloading.
+INFO 2024-05-05 14:30:47,883 autoreload 7578 8346892992 Watching for file changes with StatReloader
+ERROR 2024-05-05 14:31:00,593 log 7578 6195949568 Internal Server Error: /sem_4/edit/item/3
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py", line 180, in edit_item
+    image = FileSystemStorage.open(item.image)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Storage.open() missing 1 required positional argument: 'name'
+ERROR 2024-05-05 14:31:00,594 basehttp 7578 6195949568 "GET /sem_4/edit/item/3 HTTP/1.1" 500 64926
+INFO 2024-05-05 14:31:17,388 autoreload 7578 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:31:17,538 autoreload 7595 8346892992 Watching for file changes with StatReloader
+ERROR 2024-05-05 14:31:20,631 log 7595 6201569280 Internal Server Error: /sem_4/edit/item/3
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py", line 180, in edit_item
+    image = FileSystemStorage.open(name=item.image)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Storage.open() missing 1 required positional argument: 'self'
+ERROR 2024-05-05 14:31:20,632 basehttp 7595 6201569280 "GET /sem_4/edit/item/3 HTTP/1.1" 500 65083
+INFO 2024-05-05 14:33:13,334 autoreload 7595 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:33:13,496 autoreload 7615 8346892992 Watching for file changes with StatReloader
+ERROR 2024-05-05 14:33:17,015 log 7615 6164492288 Internal Server Error: /sem_4/edit/item/3
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py", line 180, in edit_item
+    image = FileSystemStorage().open(name=item.image)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                     ^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 179, in path
+    return safe_join(self.location, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/utils/_os.py", line 17, in safe_join
+    final_path = abspath(join(base, *paths))
+                         ^^^^^^^^^^^^^^^^^^
+  File "<frozen posixpath>", line 90, in join
+  File "<frozen genericpath>", line 164, in _check_arg_types
+TypeError: join() argument must be str, bytes, or os.PathLike object, not 'ImageFieldFile'
+ERROR 2024-05-05 14:33:17,016 basehttp 7615 6164492288 "GET /sem_4/edit/item/3 HTTP/1.1" 500 85681
+INFO 2024-05-05 14:52:29,056 autoreload 7615 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:52:29,215 autoreload 7694 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 14:52:31,311 autoreload 7694 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:52:31,457 autoreload 7701 8346892992 Watching for file changes with StatReloader
+ERROR 2024-05-05 14:52:38,775 log 7701 6159511552 Internal Server Error: /sem_4/edit/item/3
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py", line 180, in edit_item
+    image = FileSystemStorage().open(name=item.image, mode="rb")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                     ^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 179, in path
+    return safe_join(self.location, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/utils/_os.py", line 17, in safe_join
+    final_path = abspath(join(base, *paths))
+                         ^^^^^^^^^^^^^^^^^^
+  File "<frozen posixpath>", line 90, in join
+  File "<frozen genericpath>", line 164, in _check_arg_types
+TypeError: join() argument must be str, bytes, or os.PathLike object, not 'ImageFieldFile'
+ERROR 2024-05-05 14:52:38,776 basehttp 7701 6159511552 "GET /sem_4/edit/item/3 HTTP/1.1" 500 85745
+INFO 2024-05-05 14:54:03,996 autoreload 7701 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:54:04,143 autoreload 7715 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 14:54:14,296 autoreload 7715 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 14:54:14,444 autoreload 7726 8346892992 Watching for file changes with StatReloader
+ERROR 2024-05-05 14:54:17,524 log 7726 6135115776 Internal Server Error: /sem_4/edit/item/3
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py", line 180, in edit_item
+    image = FileSystemStorage().open(name=item.image.file, mode="rb")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+                     ^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/files/storage/filesystem.py", line 179, in path
+    return safe_join(self.location, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/utils/_os.py", line 17, in safe_join
+    final_path = abspath(join(base, *paths))
+                         ^^^^^^^^^^^^^^^^^^
+  File "<frozen posixpath>", line 90, in join
+  File "<frozen genericpath>", line 164, in _check_arg_types
+TypeError: join() argument must be str, bytes, or os.PathLike object, not 'File'
+ERROR 2024-05-05 14:54:17,526 basehttp 7726 6135115776 "GET /sem_4/edit/item/3 HTTP/1.1" 500 86236
+INFO 2024-05-05 15:26:41,576 autoreload 8692 8346892992 Watching for file changes with StatReloader
+WARNING 2024-05-05 15:26:58,948 log 8692 6200160256 Not Found: /sem_4/item3/
+WARNING 2024-05-05 15:26:58,949 basehttp 8692 6200160256 "GET /sem_4/item3/ HTTP/1.1" 404 3388
+INFO 2024-05-05 15:27:12,473 basehttp 8692 6200160256 "GET /sem_4/edit/item/3 HTTP/1.1" 200 1459
+INFO 2024-05-05 15:27:22,489 basehttp 8692 6200160256 "POST /sem_4/edit/item/3 HTTP/1.1" 200 1459
+INFO 2024-05-05 15:28:04,712 basehttp 8692 6200160256 "POST /sem_4/edit/item/3 HTTP/1.1" 200 1415

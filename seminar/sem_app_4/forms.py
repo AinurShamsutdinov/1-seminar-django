@@ -36,4 +36,5 @@ class ItemForm(forms.Form):
     price = forms.FloatField(min_value=0.01)
     amount = forms.IntegerField()
     date_add = forms.DateTimeField()
+    image = forms.ImageField()
 

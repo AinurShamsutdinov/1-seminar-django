@@ -88,6 +88,7 @@ class Item(models.Model):
     price = models.FloatField()
     amount = models.IntegerField()
     date_add = models.DateTimeField()
+    image = models.ImageField(blank=True, null=True)
 
     def __str__(self):
         return f'Item name: {self.name}. Description: {self.description}. Price:{self.price}'

@@ -2,7 +2,9 @@ import logging
 import random
 import datetime
 
+from django.core.files.storage import FileSystemStorage
 from django.shortcuts import render, redirect
+
 from .forms import RandomForm, AuthorForm, ArticleForm, CommentForm, ItemForm
 from sem_app_2.models import Author as AuthorModel
 from sem_app_2.models import Article as ArticleModel
@@ -150,19 +152,21 @@ def edit_item(request, item_id):
     context = {}
     context['text'] = 'Edit item'
     if request.method == 'POST':
-        form = ItemForm(request.POST)
+        form = ItemForm(request.POST, request.FILES)
         if form.is_valid():
             name = form.cleaned_data['name']
             description = form.cleaned_data['description']
             price = form.cleaned_data['price']
             amount = form.cleaned_data['amount']
             date_add = form.cleaned_data['date_add']
+            image = form.cleaned_data['image']
             item = ItemModel.objects.get(pk=item_id)
             item.name = name
             item.description = description
             item.price = price
             item.amount = amount
             item.date_add = date_add
+            item.image = image
             item.save()
     item = ItemModel.objects.get(pk=item_id)
     form = ItemForm(initial={
@@ -171,6 +175,7 @@ def edit_item(request, item_id):
             'price': item.price,
             'amount': item.amount,
             'date_add': item.date_add,
+            'image': item.image
         })
     context['form'] = form
     return render(request, 'sem_app_4/edit_item.html', context=context)
