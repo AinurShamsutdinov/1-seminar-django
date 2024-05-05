@@ -3,10 +3,11 @@ import random
 import datetime
 
 from django.shortcuts import render, redirect
-from .forms import RandomForm, AuthorForm, ArticleForm, CommentForm
+from .forms import RandomForm, AuthorForm, ArticleForm, CommentForm, ItemForm
 from sem_app_2.models import Author as AuthorModel
 from sem_app_2.models import Article as ArticleModel
 from sem_app_2.models import Commentary as CommentModel
+from sem_app_2.models import Item as ItemModel
 
 
 logger = logging.getLogger(__name__)
@@ -143,3 +144,33 @@ def get_article(request, article_id):
     context['commentaries'] = CommentModel.objects.all().filter(article_id=article_id)
     context['form'] = CommentForm()
     return render(request, 'sem_app_4/article.html', context=context)
+
+
+def edit_item(request, item_id):
+    context = {}
+    context['text'] = 'Edit item'
+    if request.method == 'POST':
+        form = ItemForm(request.POST)
+        if form.is_valid():
+            name = form.cleaned_data['name']
+            description = form.cleaned_data['description']
+            price = form.cleaned_data['price']
+            amount = form.cleaned_data['amount']
+            date_add = form.cleaned_data['date_add']
+            item = ItemModel.objects.get(pk=item_id)
+            item.name = name
+            item.description = description
+            item.price = price
+            item.amount = amount
+            item.date_add = date_add
+            item.save()
+    item = ItemModel.objects.get(pk=item_id)
+    form = ItemForm(initial={
+            'name': item.name,
+            'description': item.description,
+            'price': item.price,
+            'amount': item.amount,
+            'date_add': item.date_add,
+        })
+    context['form'] = form
+    return render(request, 'sem_app_4/edit_item.html', context=context)

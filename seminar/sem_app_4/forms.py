@@ -28,3 +28,12 @@ class ArticleForm(forms.Form):
 
 class CommentForm(forms.Form):
     comment = forms.CharField(min_length=1, max_length=1000)
+
+
+class ItemForm(forms.Form):
+    name = forms.CharField(max_length=30)
+    description = forms.CharField(max_length=1000)
+    price = forms.FloatField(min_value=0.01)
+    amount = forms.IntegerField()
+    date_add = forms.DateTimeField()
+

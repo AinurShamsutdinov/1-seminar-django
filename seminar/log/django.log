@@ -3357,3 +3357,51 @@ INFO 2024-05-04 20:37:14,943 autoreload 94178 8346892992 Watching for file chang
 INFO 2024-05-04 20:37:20,038 basehttp 94178 6163705856 "GET /sem_4/get/article/4 HTTP/1.1" 200 939
 INFO 2024-05-04 20:37:26,019 basehttp 94178 6163705856 "POST /sem_4/get/article/4 HTTP/1.1" 200 1005
 INFO 2024-05-04 21:04:36,329 basehttp 94178 6163705856 "POST /sem_4/get/article/4 HTTP/1.1" 200 1072
+INFO 2024-05-05 13:02:36,867 autoreload 4486 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 13:03:06,844 basehttp 4486 6163509248 "GET /sem_4/edit/item/3 HTTP/1.1" 200 723
+INFO 2024-05-05 13:04:27,559 autoreload 4486 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/forms.py changed, reloading.
+INFO 2024-05-05 13:04:27,715 autoreload 4512 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 13:04:36,893 autoreload 4512 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/forms.py changed, reloading.
+INFO 2024-05-05 13:04:37,047 autoreload 4523 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 13:04:39,151 autoreload 4523 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/forms.py changed, reloading.
+INFO 2024-05-05 13:04:39,298 autoreload 4529 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 13:04:41,449 basehttp 4529 6205485056 "GET /sem_4/edit/item/3 HTTP/1.1" 200 875
+INFO 2024-05-05 13:04:54,602 autoreload 4529 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/forms.py changed, reloading.
+INFO 2024-05-05 13:04:54,758 autoreload 4537 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 13:04:56,548 basehttp 4537 6194065408 "GET /sem_4/edit/item/3 HTTP/1.1" 200 884
+INFO 2024-05-05 13:05:20,261 autoreload 4537 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/forms.py changed, reloading.
+INFO 2024-05-05 13:05:20,415 autoreload 4546 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 13:05:23,470 autoreload 4546 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/forms.py changed, reloading.
+INFO 2024-05-05 13:05:23,613 autoreload 4552 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 13:05:24,697 autoreload 4552 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/forms.py changed, reloading.
+INFO 2024-05-05 13:05:24,848 autoreload 4553 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 13:05:28,592 basehttp 4553 6123450368 "GET /sem_4/edit/item/3 HTTP/1.1" 200 895
+INFO 2024-05-05 13:07:36,096 basehttp 4553 6123450368 "GET /sem_4/edit/item/3 HTTP/1.1" 200 895
+INFO 2024-05-05 13:08:34,004 basehttp 4553 6123450368 "GET /sem_4/edit/item/3 HTTP/1.1" 200 1025
+INFO 2024-05-05 13:08:39,862 autoreload 4647 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 13:08:41,742 basehttp 4647 6168080384 "GET /sem_4/edit/item/3 HTTP/1.1" 200 1025
+INFO 2024-05-05 13:08:43,346 basehttp 4647 6168080384 "GET /sem_4/edit/item/3 HTTP/1.1" 200 1025
+INFO 2024-05-05 13:08:43,619 basehttp 4647 6168080384 "GET /sem_4/edit/item/3 HTTP/1.1" 200 1025
+INFO 2024-05-05 13:09:12,558 basehttp 4647 6168080384 "GET /sem_4/edit/item/3 HTTP/1.1" 200 1041
+INFO 2024-05-05 13:09:18,609 basehttp 4647 6168080384 "GET /sem_4/edit/item/3?csrfmiddlewaretoken=4qHLXedaLy46nPCMdCzOH6cseVoFrlE4R3ynsFOHLgwAQXnXWdL35miROQfcgoav&name=hairdrier&price=7.01&amount=42&date_add=2024-05-02+15%3A22%3A23 HTTP/1.1" 200 1041
+INFO 2024-05-05 13:09:49,946 basehttp 4647 6168080384 "GET /sem_4/edit/item/3?csrfmiddlewaretoken=sc6h0nl03x1HBHj5kiBJMyp01kzPkupQfPXTvOWx3ftb4P4g3TNYaOvpBfqm9xVh&name=hairdrier&price=4.01&amount=42&date_add=2024-05-02+15%3A22%3A23 HTTP/1.1" 200 1041
+INFO 2024-05-05 13:10:22,304 basehttp 4647 6168080384 "GET /sem_4/edit/item/3?csrfmiddlewaretoken=sc6h0nl03x1HBHj5kiBJMyp01kzPkupQfPXTvOWx3ftb4P4g3TNYaOvpBfqm9xVh&name=hairdrier&price=4.01&amount=42&date_add=2024-05-02+15%3A22%3A23 HTTP/1.1" 200 1041
+INFO 2024-05-05 13:10:36,425 autoreload 4647 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 13:10:36,578 autoreload 4708 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 13:10:42,227 basehttp 4708 6164279296 "GET /sem_4/edit/item/3?csrfmiddlewaretoken=E6kSoyW9ofhvVYDZxjgJ7nSxlvqblWrYrJbuTZxGoXJZo6oagUsYvDYWVqhIaZXp&name=hairdrier&price=1.01&amount=42&date_add=2024-05-02+15%3A22%3A23 HTTP/1.1" 200 1041
+INFO 2024-05-05 13:11:21,222 autoreload 4708 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 13:11:21,370 autoreload 4726 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 13:11:25,476 autoreload 4726 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 13:11:25,621 autoreload 4735 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 13:11:28,576 basehttp 4735 6163820544 "GET /sem_4/edit/item/3?csrfmiddlewaretoken=E6kSoyW9ofhvVYDZxjgJ7nSxlvqblWrYrJbuTZxGoXJZo6oagUsYvDYWVqhIaZXp&name=hairdrier&price=1.01&amount=42&date_add=2024-05-02+15%3A22%3A23 HTTP/1.1" 200 1041
+INFO 2024-05-05 13:11:46,870 basehttp 4735 6163820544 "GET /sem_4/edit/item/3?csrfmiddlewaretoken=FmYNJuoi5ZSMlkdnjwtORVoCjYiTWuXfsZPpeVZP5HkgOsYy27F3fbu1TT9qLxtG&name=Super+Hairdrier&price=3.01&amount=42&date_add=2024-05-02+15%3A22%3A23 HTTP/1.1" 200 1041
+INFO 2024-05-05 13:36:11,610 autoreload 5327 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 13:36:15,660 basehttp 5327 6136705024 "GET /sem_4/edit/item/4 HTTP/1.1" 200 1210
+INFO 2024-05-05 13:36:22,184 basehttp 5327 6136705024 "POST /sem_4/edit/item/4 HTTP/1.1" 200 1210
+INFO 2024-05-05 13:36:45,088 autoreload 5327 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-05 13:36:45,236 autoreload 5341 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-05 13:36:48,270 basehttp 5341 6158086144 "POST /sem_4/edit/item/4 HTTP/1.1" 200 1210
+INFO 2024-05-05 13:36:51,702 basehttp 5341 6158086144 "POST /sem_4/edit/item/4 HTTP/1.1" 200 1210
+INFO 2024-05-05 13:36:54,215 basehttp 5341 6158086144 "POST /sem_4/edit/item/4 HTTP/1.1" 200 1210
+INFO 2024-05-05 13:37:17,359 basehttp 5341 6158086144 "GET /sem_4/edit/item/3 HTTP/1.1" 200 1219
+INFO 2024-05-05 13:37:48,352 basehttp 5341 6158086144 "POST /sem_4/edit/item/3 HTTP/1.1" 200 1210
