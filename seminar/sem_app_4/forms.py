@@ -25,3 +25,6 @@ class ArticleForm(forms.Form):
     category = forms.CharField(max_length=100)
     published = forms.BooleanField(required=False)
    
+
+class CommentForm(forms.Form):
+    comment = forms.CharField(min_length=1, max_length=1000)

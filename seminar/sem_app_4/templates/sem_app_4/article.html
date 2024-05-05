@@ -1,9 +1,26 @@
-{% extends 'base.html' %}
+{% extends 'sem_app_2/base.html' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
 
 {% block content %}
+    {{ text }}<br>
+    {{ article.head }}<br>
+    {{ article.content }}<br>
+    {{ article.publish_date}}<br>
+    {% for comment in commentaries %}
+        <p>
+        {{ comment.id }}
+        {{ comment.comment }}
+        {% if comment.date_edit is not None %}
+            <b><i>Edited</i></b>
+        {% endif %}
+        </p>
+    {% endfor %}
     <form method="POST" enctype="multipart/form-data">
         {% csrf_token %}
         {{ form }}
-        <input type="submit" value="Send">
+        <input type="submit" value="Sent">
     </form>
 {% endblock %}

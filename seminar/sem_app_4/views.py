@@ -1,10 +1,12 @@
 import logging
 import random
+import datetime
 
 from django.shortcuts import render, redirect
-from .forms import RandomForm, AuthorForm, ArticleForm
+from .forms import RandomForm, AuthorForm, ArticleForm, CommentForm
 from sem_app_2.models import Author as AuthorModel
 from sem_app_2.models import Article as ArticleModel
+from sem_app_2.models import Commentary as CommentModel
 
 
 logger = logging.getLogger(__name__)
@@ -122,4 +124,22 @@ def add_article(request):
             article.save()
     else:
         form = ArticleForm()
-    return render(request, 'sem_app_4/article.html', {'form': form})
+    return render(request, 'sem_app_4/add_article.html', {'form': form})
+
+
+def get_article(request, article_id):
+    context = {}
+    context['text'] = 'Article and commentaries'
+    if request.method == 'POST':
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            article = ArticleModel.objects.get(pk=article_id)
+            author = AuthorModel.objects.get(pk=article.pk)
+            comment = form.cleaned_data['comment']
+            date_creat = datetime.datetime.now()
+            commentary = CommentModel(author=author, article=article, comment=comment, date_creat=date_creat)
+            commentary.save()
+    context['article'] = ArticleModel.objects.get(pk=article_id)
+    context['commentaries'] = CommentModel.objects.all().filter(article_id=article_id)
+    context['form'] = CommentForm()
+    return render(request, 'sem_app_4/article.html', context=context)

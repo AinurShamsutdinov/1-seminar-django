@@ -3192,3 +3192,168 @@ INFO 2024-05-04 17:22:38,036 basehttp 91795 6171406336 "GET /sem_4/article/ HTTP
 INFO 2024-05-04 17:22:47,317 basehttp 91795 6171406336 "POST /sem_4/article/ HTTP/1.1" 200 1661
 INFO 2024-05-04 17:23:15,856 autoreload 91795 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
 INFO 2024-05-04 17:23:16,005 autoreload 91814 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 17:58:54,273 autoreload 92804 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 17:59:35,764 basehttp 92804 6129971200 "GET /sem_4/get/article/3 HTTP/1.1" 200 852
+INFO 2024-05-04 18:01:29,705 autoreload 92804 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:01:29,935 autoreload 92853 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:01:31,015 autoreload 92853 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:01:31,144 autoreload 92856 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:01:35,254 autoreload 92856 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:01:35,389 autoreload 92863 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:01:39,515 autoreload 92863 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:01:39,658 autoreload 92871 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:01:48,860 autoreload 92871 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:01:49,012 autoreload 92877 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:01:50,092 autoreload 92877 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:01:50,225 autoreload 92880 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:01:53,321 autoreload 92880 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:01:53,473 autoreload 92885 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:02:06,688 autoreload 92885 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:02:06,842 autoreload 92891 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:02:10,918 autoreload 92891 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:02:11,067 autoreload 92897 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:02:13,115 autoreload 92897 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:02:13,254 autoreload 92903 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:02:14,350 autoreload 92903 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:02:14,481 autoreload 92904 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:02:17,585 autoreload 92904 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:02:17,734 autoreload 92905 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:02:20,847 autoreload 92905 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:02:20,979 autoreload 92911 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:02:22,066 autoreload 92911 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:02:22,193 autoreload 92912 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:02:25,292 autoreload 92912 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:02:25,441 autoreload 92918 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:02:27,503 autoreload 92918 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:02:27,652 autoreload 92919 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:02:29,761 autoreload 92919 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:02:29,907 autoreload 92925 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:02:32,020 autoreload 92925 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:02:32,158 autoreload 92926 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:02:36,278 autoreload 92926 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:02:36,427 autoreload 92936 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:02:39,537 autoreload 92936 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:02:39,691 autoreload 92942 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:02:44,817 autoreload 92942 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:02:44,965 autoreload 92948 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:02:50,114 autoreload 92948 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:02:50,269 autoreload 92954 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:02:56,370 autoreload 92954 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:02:56,505 autoreload 92961 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:02:57,542 autoreload 92961 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:02:57,697 autoreload 92962 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:03:00,800 autoreload 92962 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:03:00,950 autoreload 92968 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:03:06,089 autoreload 92968 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:03:06,236 autoreload 92974 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:03:12,386 autoreload 92974 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:03:12,533 autoreload 92980 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:03:24,760 autoreload 92980 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:03:24,910 autoreload 92988 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:03:32,063 autoreload 92988 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:03:32,212 autoreload 92996 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:03:37,346 autoreload 92996 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:03:37,498 autoreload 93003 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:03:58,905 autoreload 93003 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:03:59,059 autoreload 93010 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:04:06,237 autoreload 93010 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:04:06,390 autoreload 93020 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:04:08,494 autoreload 93020 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:04:08,646 autoreload 93024 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:04:13,784 autoreload 93024 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:04:13,928 autoreload 93030 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:04:18,043 autoreload 93030 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:04:18,198 autoreload 93036 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:04:23,286 autoreload 93036 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:04:23,422 autoreload 93042 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:04:25,526 autoreload 93042 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:04:25,662 autoreload 93045 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:04:26,754 autoreload 93045 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:04:26,884 autoreload 93049 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:04:38,082 autoreload 93049 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:04:38,248 autoreload 93055 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:04:51,427 autoreload 93055 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:04:51,581 autoreload 93064 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:04:55,639 autoreload 93064 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:04:55,778 autoreload 93070 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:04:56,816 autoreload 93070 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:04:56,965 autoreload 93071 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:05:04,106 autoreload 93071 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:05:04,241 autoreload 93081 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:05:07,341 autoreload 93081 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:05:07,478 autoreload 93088 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:05:10,586 autoreload 93088 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:05:10,719 autoreload 93094 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:05:13,820 autoreload 93094 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:05:13,967 autoreload 93097 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:05:18,068 autoreload 93097 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:05:18,210 autoreload 93103 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:05:45,648 autoreload 93103 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:05:45,799 autoreload 93111 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:06:04,124 autoreload 93111 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:06:04,276 autoreload 93122 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:06:05,356 autoreload 93122 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:06:05,483 autoreload 93125 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:06:07,578 autoreload 93125 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:06:07,734 autoreload 93129 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:06:12,869 autoreload 93129 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:06:13,011 autoreload 93136 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:06:18,143 autoreload 93136 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:06:18,295 autoreload 93142 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:06:20,393 autoreload 93142 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:06:20,534 autoreload 93145 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:06:26,686 autoreload 93145 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:06:26,845 autoreload 93151 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:06:29,911 autoreload 93151 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:06:30,058 autoreload 93155 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:06:34,174 autoreload 93155 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:06:34,325 autoreload 93161 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:06:42,511 autoreload 93161 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:06:42,664 autoreload 93169 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:06:44,765 autoreload 93169 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:06:44,909 autoreload 93173 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:06:52,061 autoreload 93173 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:06:52,206 autoreload 93182 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:06:57,337 autoreload 93182 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:06:57,493 autoreload 93188 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:07:01,614 autoreload 93188 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:07:01,764 autoreload 93196 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:07:02,861 autoreload 93196 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:07:02,987 autoreload 93200 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:07:08,135 autoreload 93200 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:07:08,289 autoreload 93206 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:08:36,649 basehttp 93206 6169260032 "GET /sem_4/get/article/3 HTTP/1.1" 200 939
+ERROR 2024-05-04 18:08:46,485 log 93206 6169260032 Internal Server Error: /sem_4/get/article/3
+Traceback (most recent call last):
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py", line 140, in get_article
+    commentary = CommentModel(author=author, article=article, comment=comment, data_creat=data_creat)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/.venv/lib/python3.12/site-packages/django/db/models/base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Commentary() got unexpected keyword arguments: 'data_creat'
+ERROR 2024-05-04 18:08:46,486 basehttp 93206 6169260032 "POST /sem_4/get/article/3 HTTP/1.1" 500 74339
+INFO 2024-05-04 18:09:10,189 autoreload 93206 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:09:10,433 autoreload 93291 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:09:12,516 autoreload 93291 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:09:12,667 autoreload 93297 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:09:13,750 autoreload 93297 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:09:13,877 autoreload 93298 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:09:19,099 basehttp 93298 6167834624 "GET /sem_4/get/article/3 HTTP/1.1" 200 939
+INFO 2024-05-04 18:09:26,359 basehttp 93298 6167834624 "POST /sem_4/get/article/3 HTTP/1.1" 200 518
+INFO 2024-05-04 18:10:13,931 autoreload 93298 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:10:14,176 autoreload 93323 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:10:19,298 autoreload 93323 8346892992 /Users/ainurshamsutdinov/Projects/geekbrains/django/1-seminar-django/seminar/sem_app_4/views.py changed, reloading.
+INFO 2024-05-04 18:10:19,458 autoreload 93332 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 18:10:21,258 basehttp 93332 6134624256 "GET /sem_4/get/article/3 HTTP/1.1" 200 1012
+INFO 2024-05-04 18:10:29,993 basehttp 93332 6134624256 "POST /sem_4/get/article/3 HTTP/1.1" 200 1089
+INFO 2024-05-04 18:10:47,937 basehttp 93332 6134624256 "POST /sem_4/get/article/3 HTTP/1.1" 200 1171
+INFO 2024-05-04 20:37:14,943 autoreload 94178 8346892992 Watching for file changes with StatReloader
+INFO 2024-05-04 20:37:20,038 basehttp 94178 6163705856 "GET /sem_4/get/article/4 HTTP/1.1" 200 939
+INFO 2024-05-04 20:37:26,019 basehttp 94178 6163705856 "POST /sem_4/get/article/4 HTTP/1.1" 200 1005
+INFO 2024-05-04 21:04:36,329 basehttp 94178 6163705856 "POST /sem_4/get/article/4 HTTP/1.1" 200 1072
