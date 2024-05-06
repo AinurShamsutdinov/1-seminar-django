@@ -79,7 +79,7 @@ class Client(models.Model):
     date_reg = models.DateTimeField()
 
     def __str__(self):
-        return f'Client name: {self.name}, email: {self.email}'
+        return f'Name: {self.name}'
 
 
 class Item(models.Model):
@@ -91,7 +91,7 @@ class Item(models.Model):
     image = models.ImageField(blank=True, null=True)
 
     def __str__(self):
-        return f'Item name: {self.name}. Description: {self.description}. Price:{self.price}'
+        return f'Item {self.name}. {self.price}.'
 
 
 class Order(models.Model):
