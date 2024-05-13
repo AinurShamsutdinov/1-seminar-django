@@ -17,10 +17,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+from sem_app_4.views import index
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('sem_1/', include('sem_app_1.urls')),
     path('random/', include('randomapp.urls')),
     path('sem_2/', include('sem_app_2.urls')),
     path('sem_4/', include('sem_app_4.urls')),
+    path('__debug__/', include("debug_toolbar.urls")),
+    path('', index)
 ]

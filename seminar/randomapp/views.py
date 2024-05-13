@@ -43,13 +43,14 @@ def random_generate(request, generations):
 
 def main(request):
     links = list()
-    links.append('headtail')
+    links.append('coin')
     links.append('dice')
     links.append('random')
     context = {
         'links': links,
-        'title': 'Main page title',
+        'title': 'Main page title generate 10 random by default',
         'page': 'This is main page with links: ',
+        'about': 'About page',
     }
     return render(request, 'randomapp/main.html', context)
 

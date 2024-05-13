@@ -4,3 +4,9 @@ class Commentary(models.Model):
     comment = models.TextField()
     date_creat = models.DateTimeField(blank=True)
     date_edit = models.DateTimeField()
+
+
+def get_items(request):
+    items = Item.objects.all()
+    context = {'items': items}
+    return render(request, 'sem_app_2/items.html', context=context)

@@ -91,7 +91,7 @@ class Item(models.Model):
     image = models.ImageField(blank=True, null=True)
 
     def __str__(self):
-        return f'Item {self.name}. {self.price}.'
+        return f'Item: {self.name}. Description: {self.description}. {self.price}.'
 
 
 class Order(models.Model):

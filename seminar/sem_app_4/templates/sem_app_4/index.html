@@ -7,15 +7,15 @@
 {% block content %}
 
 <h3>{{ page }}</h3>
+<h3>List of apps to explore:</h3>
 
-    {% if links %}
+    {% if apps %}
         <ul>
-        {% for link in links %}
-            <li><a href="/random/{{ link }}/10">{{ link }}</a></li>
+        {% for app in apps %}
+            <li><a href="/{{ app.0 }}">{{ app.1 }}</a></li>
         {% endfor %}
         </ul>
     {% else %}
         <p>No links are available.</p>
     {% endif %}
-    <a href="/random/about">{{ about }}</a>
 {% endblock %}

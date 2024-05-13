@@ -179,3 +179,21 @@ def edit_item(request, item_id):
         })
     context['form'] = form
     return render(request, 'sem_app_4/edit_item.html', context=context)
+
+
+def index(request):
+    apps = list()
+    apps.append(['random/main', 'Semianar 1. Random generator main page.'])
+    apps.append(['sem_1', 'Seminar 1. Index page.'])
+    apps.append(['sem_1/aboutme', 'Seminar 1. About me page'])
+    apps.append(['sem_2/authors', 'Seminar 2. Authors page'])
+    apps.append(['sem_2/orders', 'Seminar 2. Orders page'])
+    apps.append(['sem_2/items', 'Seminar 2. Items page'])
+    apps.append(['sem_4/choice', 'Seminar 4. Page with choice of random generator'])
+    apps.append(['sem_4/author', 'Seminar 4. Add author page'])
+    apps.append(['sem_4/add/article', 'Seminar 4. Add article page'])
+    context = {
+        'apps': apps,
+    }
+
+    return render(request, 'sem_app_4/index.html', context=context)
