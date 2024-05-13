@@ -104,7 +104,7 @@ WSGI_APPLICATION = 'seminar.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'default',
+        'NAME': 'Ainur$seminar_django',
         'USER': 'Ainur',
         'PASSWORD': 'dbpassword',
         'HOST': 'Ainur.mysql.pythonanywhere-services.com',
@@ -112,7 +112,8 @@ DATABASES = {
             'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
             'charset': 'utf8mb4',
         },
-} }
+    } 
+}
 
 
 # Password validation
